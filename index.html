@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RevoU Camp</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <h1>Hello World!!!!</h1>
-    <h2>Rayhan Wahyudin R.L</h2>
+    <h1 class="text-3xl pb-4 text-blue-500 font-bold pl-6 pt-6 bg-yellow-100">Hello World!!!!</h1>
+    <h2 class="bg-cyan-500 shadow-lg shadow-cyan-500/50">Rayhan Wahyudin R.L</h2>
+
+    <h1>Table</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>company</th>
+                <th>contact</th>
+                <th>country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rayhan</td>
+                <td>Rayhan@gmail.com</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Rere</td>
+                <td>Rere@gmail.com</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Raysan</td>
+                <td>Raysan@gmail.com</td>
+                <td>Japan</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Gambar</h1>
+    <img src="img/ray.png" width="200px" height="300px" alt="Stiker Wa">
+
+    <h1>halaman Lain</h1>
+
+    <a href="#lorem">go to Loremm</a>
+
+    <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis totam, error sequi eligendi
+        molestiae reiciendis fugiat nostrum nisi repellat facilis exercitationem, vero voluptatem sapiente quo,
+        assumenda at praesentium quae! Dolores!</p>
+
+
+    <h1>Form Contact Us</h1>
+    <form action="">
+        <label for="">Nama</label>
+        <input type="text" name="" id="">
+        <br>
+        <label for="">Umur</label>
+        <input type="number" name="" id="" min="0" max="120">
+        <br>
+        <label for="">Password</label>
+        <input type="password" name="" id="">
+        <br>
+        <label for="">Jenis Kelamin</label>
+        <input type="radio" name="jk" id="" value="male">Laki-Laki
+        <input type="radio" name="jk" id="" value="female">Perempuan
+        <br>
+        <label for="">Pilih Menu</label>
+        <select name="" id="">
+            <option value="Nasi Goreng">Nasi Goreng</option>
+            <option value="Mie Goreng">Mie Goreng</option>
+            <option value="Mie Rebus">Mie Rebus</option>
+        </select>
+        <br>
+        <label for="">Comment</label>
+        <br>
+        <textarea name="" id="" rows="5" cols="30"></textarea>
+        <br>
+        <input type="checkbox" name="" id=""> Saya Setuju Dengan Syarat dan Ketentuan
+        <br>
+        <button>Kirim</button>
+        <button>Send</button>
+    </form>
 </body>
+
 </html>
